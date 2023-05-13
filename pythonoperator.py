@@ -32,3 +32,24 @@ Python Exercise
 
 count=10
 count +-5
+#Propose a program to calculate Simple Interest
+
+# Simple Interest = (P x T x R)/100 Where, P is the principal amount T is the time and R is the rate
+
+# Take P, T and R as user inputs.
+# get the principal amount from the user and print it
+p =float(input('enter the principal amount: '))
+print('principal =' p, '/n')
+
+# get the time from the user and print it
+T= float(input('enter the time: '))
+print('Time =' T, '/N')
+
+# Get the rate from the user and print it
+R=float(input('enter the rate: '))
+print('Rate ='R, '/n')
+
+# Calculate the simple interest and print it
+simple_interest =(P*T*R)/100
+print('The Simple Interestis:', simple_interest)
+

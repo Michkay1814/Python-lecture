@@ -41,14 +41,12 @@ count=0
     #print('Hey Happiness')
 while(count<5): count+=1; print('Hey Hapiness welcome')
 
-happi=1
-while(happi<5):
-    print(happi)
-    happi = happi+1
+
     # While loop
     count=10
     while  count>=1:
-     print(count)    
+     print(count) 
+     count=count-1   
      
      # print even and odd number between 1 to 10
      for i in range (1,10):
